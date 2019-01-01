@@ -1,6 +1,5 @@
 
 const driver = {
-  driver: "driver",
   name: "driver",
 };
 
