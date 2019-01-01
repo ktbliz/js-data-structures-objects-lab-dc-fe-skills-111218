@@ -6,11 +6,11 @@ const driver = {
 
 
 function updateDriverWithKeyAndValue (obj, key, value) {
-  const newObj = Object.assign({}, obj, {[key]: value});
-  return newObj;
+  const newDriver = Object.assign({}, obj, {[key]: value});
+  return newDriver;
 }
 
-const newDriver = updateDriverWithKeyAndValue(driver, name, Sam);
+updateDriverWithKeyAndValue(driver, name, Sam);
 
 
 function destructivelyUpdateDriverWithKeyAndValue(obj, key, value) {
